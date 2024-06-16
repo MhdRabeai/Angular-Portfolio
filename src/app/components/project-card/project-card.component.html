@@ -1,0 +1,25 @@
+<div class="card shadow text-center project-card">
+  <div class="card-body">
+    <div class="eleven">
+      <h1 class="card-title">{{ project.name }}</h1>
+    </div>
+
+    <p class="card-text">
+      {{ project.desc }}
+    </p>
+    <!-- <div class="btns d-flex justify-content-center">
+      <button class="btn btn-primary">View More</button>
+    </div>
+     -->
+    <div class="test">
+      <a href="#" class="button">View More</a>
+    </div>
+  </div>
+  <div class="card-footer">
+    <div class="d-flex flex-wrap justify-content-center">
+      <div *ngFor="let tag of project.tags">
+        <p class="tag me-2 mb-1" [style.background]="tag.color">{{ tag }}</p>
+      </div>
+    </div>
+  </div>
+</div>

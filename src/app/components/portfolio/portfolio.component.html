@@ -1,0 +1,16 @@
+<div class="container">
+  <div class="row g-2 justify-content-center ">
+    <div *ngFor="let project of returnedArray" class="col-lg-4 col-md-5">
+      <app-project-card [project]="project"></app-project-card>
+    </div>
+    <div class="pagination-container pt-2">
+      <pagination
+      [boundaryLinks]="showBoundaryLinks"
+      [directionLinks]="showDirectionLinks"
+      [totalItems]="projects.length"
+      [itemsPerPage]="6"
+      (pageChanged)="pageChanged($event)"
+    ></pagination>
+    </div>
+  </div>
+</div>
