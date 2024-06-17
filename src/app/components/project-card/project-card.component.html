@@ -4,15 +4,11 @@
       <h1 class="card-title">{{ project.name }}</h1>
     </div>
 
-    <p class="card-text">
+    <p class="card-text mt-2">
       {{ project.desc }}
     </p>
-    <!-- <div class="btns d-flex justify-content-center">
-      <button class="btn btn-primary">View More</button>
-    </div>
-     -->
     <div class="test">
-      <a href="#" class="button">View More</a>
+      <button class="button" (click)="openModal()">View More</button>
     </div>
   </div>
   <div class="card-footer">
