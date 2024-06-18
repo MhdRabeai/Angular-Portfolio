@@ -4,6 +4,7 @@ import { PaginationModule } from 'ngx-bootstrap/pagination';
 import { AppRoutingModule } from './app-routing.module';
 import { ModalModule } from 'ngx-bootstrap/modal';
 import { CarouselModule } from 'ngx-bootstrap/carousel';
+import { CollapseModule } from 'ngx-bootstrap/collapse';
 
 import {
   BrowserModule,
@@ -22,7 +23,7 @@ import { ProjectModalComponent } from './components/project-modal/project-modal.
 
 @NgModule({
   declarations: [AppComponent, HeaderComponent, NavComponent, HomeComponent, PortfolioComponent, ResumeComponent, ContactComponent, ProjectCardComponent, ProjectModalComponent],
-  imports: [BrowserModule, AppRoutingModule,FormsModule,PaginationModule,ModalModule.forRoot(),CarouselModule.forRoot()],
+  imports: [CarouselModule.forRoot(),BrowserModule, AppRoutingModule,FormsModule,PaginationModule,ModalModule.forRoot(),CollapseModule.forRoot()],
   providers: [provideClientHydration()],
   bootstrap: [AppComponent],
 })

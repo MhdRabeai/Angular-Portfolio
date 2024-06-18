@@ -6,7 +6,7 @@
 }
 .thirteen h1:before, .thirteen h1:after {
     background-color: #5c62f4;
-    position:absolute; 
+    position:absolute;
     content: '';
     height: 7px;
 

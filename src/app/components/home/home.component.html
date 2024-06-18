@@ -12,15 +12,16 @@
           width="256"
           height="256"
         />
+
         <p class="p-2 home-p">
-          A Front-end developer with a proven track record of creating dynamic
-          and responsive web applications. With a keen eye for design and user
-          experience. Experienced in collaborating with cross-functional teams
-          to deliver innovative solutions that enhance user interactions. Strong
-          problem-solving skills and a commitment to staying current with
-          emerging web technologies. Ready to contribute expertise to develop
-          cutting-edge web applications that drive exceptional user engagement
-          and satisfaction.
+         (( A Front-end developer with a proven track record of creating dynamic
+         and responsive web applications. With a keen eye for design and user
+         experience. Experienced in collaborating with cross-functional teams
+         to deliver innovative solutions that enhance user interactions. Strong
+         problem-solving skills and a commitment to staying current with
+         emerging web technologies. Ready to contribute expertise to develop
+         cutting-edge web applications that drive exceptional user engagement
+         and satisfaction. ))
         </p>
       </div>
     </div>
@@ -28,8 +29,19 @@
     <div class="col-lg shadow border m-1">
       <div class="thirteen mt-3 text-center">
         <h1>Featured Project</h1>
-        <h4 class=" my-3">{{featuredProject.name}}</h4>
+        <h5 class=" my-3">(( {{featuredProject.name}} ))</h5>
       </div>
+      <carousel >
+        <ng-container *ngFor="let picture of featuredProject.pictures">
+          <slide >
+            <img [src]="picture" alt="img" class="w-100 " height="300">
+          </slide>
+        </ng-container>
+
+
+      </carousel>
+      <p class="mt-2 home-p text-center">- {{featuredProject.desc}}</p>
+      <p class="home-p text-center">- Visit the Portfolio Section to learn more!</p>
     </div>
   </div>
 </div>

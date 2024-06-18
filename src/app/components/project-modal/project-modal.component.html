@@ -1,15 +1,46 @@
 <div class="modal-header">
   <div class="ten">
-    <h1>{{project.name}}</h1>
+    <h1>{{ project.name }}</h1>
   </div>
- 
+
   <button class="btn-close" (click)="bsModalRef.hide()"></button>
 </div>
 <div class="modal-body">
-  <carousel >
-    <slide>
-      <img src="../../../assets/x4vfnJX.png" alt="img" class="mw-100">
-    </slide>
-    
+  <carousel
+    [interval]="1000"
+    [itemsPerSlide]="1"
+    [noWrap]="true"
+    [noPause]="false"
+    [showIndicators]="false"
+    [isAnimated]="true"
+    [indicatorsByChunk]="true"
+  >
+    <ng-container *ngFor="let picture of project.pictures">
+      <slide>
+        <img src="{{ picture }}" alt="img" class="w-100" height="350" />
+      </slide>
+    </ng-container>
   </carousel>
+</div>
+<div class="modal-footer d-block">
+  <div class="ten mt-3">
+    <h1>Description:</h1>
+  </div>
+  <p>{{ project.desc }}</p>
+  <div class="ten mt-3">
+    <h1>Links:</h1>
+  </div>
+  <p>
+    You can find this project on Github:
+    <a [href]="project.gitHubLink" target="_blank">Here</a>
+  </p>
+  <p>
+    You can find this project live on free hosting:
+    <a [href]="project.projectLink" target="_blank">Here</a>
+  </p>
+  <div class="d-flex flex-wrap mt-4">
+    <div *ngFor="let tag of project.tags">
+      <p class="tag me-2 mb-1" [style.background]="tag.color">{{ tag }}</p>
+    </div>
+  </div>
 </div>

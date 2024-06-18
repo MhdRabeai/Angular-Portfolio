@@ -10,4 +10,8 @@ export class ResumeComponent {
   constructor(private titleService: Title){
     this.titleService.setTitle("Mhd - Resume")
   }
+
+  DownloadFile(){
+    
+  }
 }
