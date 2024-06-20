@@ -1,7 +1,7 @@
 <div class="card shadow text-center project-card">
   <div class="card-body">
     <div class="eleven">
-      <h1 class="card-title">{{ project.name }}</h1>
+      <h1 class="card-title">(({{ project.name }}))</h1>
     </div>
 
     <p class="card-text mt-2">
@@ -12,9 +12,9 @@
     </div>
   </div>
   <div class="card-footer">
-    <div class="d-flex flex-wrap justify-content-center">
+    <div class="d-flex flex-wrap justify-content-center gap-2">
       <div *ngFor="let tag of project.tags">
-        <p class="tag me-2 mb-1" [style.background]="tag.color">{{ tag }}</p>
+        <p class="tag  mb-1" [style.background]="tag.color">{{ tag }}</p>
       </div>
     </div>
   </div>

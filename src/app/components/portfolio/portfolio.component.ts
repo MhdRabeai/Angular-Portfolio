@@ -38,7 +38,7 @@ export class PortfolioComponent implements OnInit {
 
   ngOnInit(): void {
     this.projects = this.projectService.getProjects();
-    this.returnedArray = this.projects.slice(0, 6);
+    this.returnedArray = this.projects.slice(0, 9);
   }
   filter() {
     let filterTags: Tag[] = [];

@@ -24,7 +24,7 @@
   font-size:26px; letter-spacing:1px;
 
   display: grid;
-  grid-template-columns: 150px auto 150px;
+  grid-template-columns: 20% auto 20%;
   justify-content: center;
   grid-template-rows: 16px 0;
   grid-gap: 22px;

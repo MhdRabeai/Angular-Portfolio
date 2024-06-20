@@ -9,6 +9,33 @@ export class ProjectsService {
   projects: Project[] = [
     {
       id: 0,
+      name: 'React-LandingPage',
+      desc: 'FrontEnd web application developed using React',
+      gitHubLink: 'https://github.com/MhdRabeai/React-LandingPage',
+      projectLink: 'https://react-landing-page-sage.vercel.app/',
+      pictures: ['../../../assets/react-landing1.webp','../../../assets/react-landing2.webp','../../../assets/react-landing3.webp'],
+      tags: [Tag.REACT, Tag.JAVASCRIPT],
+    },
+    {
+      id: 1,
+      name: 'React-Poster',
+      desc: 'FrontEnd web application developed using React and React-Router',
+      gitHubLink: 'https://github.com/MhdRabeai/React-First',
+      projectLink: 'https://react-first-lake.vercel.app/',
+      pictures: ['../../../assets/poster1.webp','../../../assets/poster2.webp'],
+      tags: [Tag.REACT, Tag.JAVASCRIPT],
+    },
+    {
+      id: 2,
+      name: 'Todo-App',
+      desc: 'FrontEnd web application developed using React',
+      gitHubLink: 'https://github.com/MhdRabeai/React-Todo-List',
+      projectLink: 'https://react-todo-list-mu-two.vercel.app/',
+      pictures: ['../../../assets/todo1.webp','../../../assets/todo2.webp'],
+      tags: [Tag.REACT, Tag.JAVASCRIPT],
+    },
+    {
+      id: 3,
       name: 'Todo-App',
       desc: 'FrontEnd web application developed using Angular and Bootstrab',
       gitHubLink: 'https://github.com/MhdRabeai/To-Do-App',
@@ -17,7 +44,7 @@ export class ProjectsService {
       tags: [Tag.ANGULAR, Tag.BOOTSTRAP, Tag.TYPESCRIPT],
     },
     {
-      id: 1,
+      id: 4,
       name: 'Auth & verification',
       desc: 'Web application developed using Angular and Bootstrab with Firebase ',
       gitHubLink: 'https://github.com/MhdRabeai/Firebase-Auth-ForgotPass',
@@ -26,7 +53,7 @@ export class ProjectsService {
       tags: [Tag.ANGULAR, Tag.BOOTSTRAP, Tag.TYPESCRIPT],
     },
     {
-      id: 2,
+      id: 5,
       name: 'Contact-Management',
       desc: 'Web application developed using Angular and Bootstrab with Json-Server',
       gitHubLink: 'https://github.com/MhdRabeai/contact-management',
@@ -41,7 +68,7 @@ export class ProjectsService {
       tags: [Tag.ANGULAR, Tag.BOOTSTRAP, Tag.TYPESCRIPT],
     },
     {
-      id: 3,
+      id: 6,
       name: 'News-App',
       desc: 'FrontEnd web app developed using Angular and Angular-Material with fake Api',
       gitHubLink: 'https://github.com/MhdRabeai/NewsApp',
@@ -50,7 +77,7 @@ export class ProjectsService {
       tags: [Tag.ANGULAR, Tag.ANGULARMATERIAL, Tag.TYPESCRIPT],
     },
     {
-      id: 4,
+      id: 7,
       name: 'Currency-rate',
       desc: 'FrontEnd web app developed using Angular and Angular-Material with fake Api',
       gitHubLink: 'https://github.com/MhdRabeai/Cryptocurrency-price',
@@ -63,7 +90,7 @@ export class ProjectsService {
       tags: [Tag.ANGULAR, Tag.ANGULARMATERIAL, Tag.TYPESCRIPT],
     },
     {
-      id: 5,
+      id: 8,
       name: 'Gym-Regitration.',
       desc: 'FrontEnd web app developed using Angular and Angular-Material with Json-server',
       gitHubLink: 'https://github.com/MhdRabeai/Gym-Regitration',
@@ -72,7 +99,7 @@ export class ProjectsService {
       tags: [Tag.ANGULAR, Tag.ANGULARMATERIAL, Tag.TYPESCRIPT],
     },
     {
-      id: 6,
+      id: 9,
       name: 'Market',
       desc: 'Web application developed using Angular and Bootstrab with Firebase',
       gitHubLink: 'https://github.com/MhdRabeai/Market',
@@ -84,7 +111,7 @@ export class ProjectsService {
       tags: [Tag.ANGULAR, Tag.BOOTSTRAP, Tag.TYPESCRIPT],
     },
     {
-      id: 7,
+      id: 10,
       name: 'Employees-Manag',
       desc: 'Web application developed using Angular and Angular-Material with Json-Server',
       gitHubLink: 'https://github.com/MhdRabeai/empProject',
@@ -93,7 +120,7 @@ export class ProjectsService {
       tags: [Tag.ANGULAR, Tag.ANGULARMATERIAL, Tag.TYPESCRIPT],
     },
     {
-      id: 8,
+      id: 11,
       name: 'Jon-Portfolio',
       desc: 'A responsive template that include some animations created using HTML, CSS, BootStrap ,JavaScript and Jquery',
       gitHubLink: 'https://github.com/MhdRabeai/Jon-Portfolio',
@@ -105,7 +132,7 @@ export class ProjectsService {
       tags: [Tag.WEPDESIGN, Tag.JAVASCRIPT,Tag.JQUERY],
     },
     {
-      id: 9,
+      id: 12,
       name: 'Elzero',
       desc: 'A responsive template created using only HTML,CSS,and JavaScript ',
       gitHubLink: 'https://github.com/MhdRabeai/Elzero-',
@@ -118,7 +145,7 @@ export class ProjectsService {
       tags: [Tag.WEPDESIGN, Tag.JAVASCRIPT],
     },
     {
-      id: 10,
+      id: 13,
       name: 'Upwork',
       desc: 'A responsive template that include some animations created using HTML, CSS, BootStrap ,JavaScript and Jquery',
       gitHubLink: 'https://github.com/MhdRabeai/Upwork',
@@ -130,7 +157,7 @@ export class ProjectsService {
       tags: [Tag.WEPDESIGN, Tag.JAVASCRIPT,Tag.JQUERY],
     },
     {
-      id: 11,
+      id: 14,
       name: 'Spicial-Design',
       desc: 'A responsive template created using only HTML,CSS,and JavaScript ',
       gitHubLink: 'https://github.com/MhdRabeai/Spicial-Design',
@@ -144,7 +171,7 @@ export class ProjectsService {
       tags: [Tag.WEPDESIGN, Tag.JAVASCRIPT],
     },
     {
-      id: 12,
+      id: 15,
       name: 'Prixima',
       desc: 'A responsive template that include some animations created using HTML, CSS, BootStrap ,JavaScript and Jquery',
       gitHubLink: 'https://github.com/MhdRabeai/Prixima',
@@ -157,7 +184,7 @@ export class ProjectsService {
       tags: [Tag.WEPDESIGN, Tag.JAVASCRIPT,Tag.JQUERY],
     },
     {
-      id: 13,
+      id: 16,
       name: 'Ethan-Hunt',
       desc: 'A responsive template that include some animations created using HTML, CSS, BootStrap and Jquery',
       gitHubLink: 'https://github.com/MhdRabeai/Hunt',
@@ -170,7 +197,7 @@ export class ProjectsService {
       tags: [Tag.WEPDESIGN, Tag.JQUERY],
     },
     {
-      id: 14,
+      id: 17,
       name: 'Elixir',
       desc: 'A responsive template that include some animations created using HTML, CSS, BootStrap and Jquery',
       gitHubLink: 'https://github.com/MhdRabeai/Elixir',
@@ -184,7 +211,7 @@ export class ProjectsService {
       tags: [Tag.WEPDESIGN, Tag.JQUERY],
     },
     {
-      id: 15,
+      id: 18,
       name: 'EGATOR-DashBord',
       desc: 'A responsive template created using only HTML,CSS,and JavaScript',
       gitHubLink: 'https://github.com/MhdRabeai/EGATOR-DashBord',
@@ -193,7 +220,7 @@ export class ProjectsService {
       tags: [Tag.WEPDESIGN, Tag.JAVASCRIPT],
     },
     {
-      id: 16,
+      id: 19,
       name: 'EGATOR',
       desc: 'A responsive template created using only HTML,CSS,and JavaScript',
       gitHubLink: 'https://github.com/MhdRabeai/EGATOR',
@@ -205,7 +232,7 @@ export class ProjectsService {
       tags: [Tag.WEPDESIGN, Tag.JAVASCRIPT],
     },
     {
-      id: 17,
+      id: 20,
       name: 'Elzero-Dashboard',
       desc: 'A responsive template created using only HTML,CSS,and JavaScript',
       gitHubLink: 'https://github.com/MhdRabeai/Elzero-Dashboard',

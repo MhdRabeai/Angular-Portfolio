@@ -14,6 +14,6 @@ constructor(private titleService: Title , private projectService:ProjectsService
   this.titleService.setTitle("Mhd - Home")
 }
 ngOnInit(): void {
-  this.featuredProject = this.projectService.getProjectById(2);
+  this.featuredProject = this.projectService.getProjectById(0);
 }
 }
