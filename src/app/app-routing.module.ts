@@ -8,17 +8,37 @@ import { ProjectCardComponent } from './components/project-card/project-card.com
 import { ProjectServicesComponent } from './components/project-services/project-services.component';
 
 const routes: Routes = [
-  { path: '', component: HomeComponent },
+  { path: '', component: HomeComponent, data: { animation: 'home' } },
   {
     path: 'portfolio',
     component: PortfolioComponent,
+    data: { animation: 'portfolio' },
 
-    children: [{ path: 'project-card', component: ProjectCardComponent }],
+    children: [
+      {
+        path: 'project-card',
+        component: ProjectCardComponent,
+        data: { animation: 'project-card' },
+      },
+    ],
   },
-  { path: 'resume', component: ResumeComponent },
-  { path: 'contact', component: ContactComponent },
-  { path: 'services', component: ProjectServicesComponent },
-  { path: '**', redirectTo: '', pathMatch: 'full' },
+  { path: 'resume', component: ResumeComponent, data: { animation: 'resume' } },
+  {
+    path: 'contact',
+    component: ContactComponent,
+    data: { animation: 'contact' },
+  },
+  {
+    path: 'services',
+    component: ProjectServicesComponent,
+    data: { animation: 'services' },
+  },
+  {
+    path: '**',
+    redirectTo: '',
+    pathMatch: 'full',
+    data: { animation: 'home' },
+  },
 ];
 
 @NgModule({
