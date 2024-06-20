@@ -17,3 +17,22 @@
   -ms-border-radius: 25px;
   -o-border-radius: 25px;
 }
+.eight h1 {
+  text-align:center;
+
+  text-transform:uppercase;
+  font-size:26px; letter-spacing:1px;
+
+  display: grid;
+  grid-template-columns: 150px auto 150px;
+  justify-content: center;
+  grid-template-rows: 16px 0;
+  grid-gap: 22px;
+}
+
+.eight h1:after,.eight h1:before {
+  content: " ";
+  display: block;
+  border-bottom: 2px solid #ccc;
+  background-color:#f8f8f8;
+}

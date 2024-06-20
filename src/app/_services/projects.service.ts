@@ -102,7 +102,7 @@ export class ProjectsService {
         '../../../assets/Portfolio1.webp',
         '../../../assets/Portfolio2.webp',
       ],
-      tags: [Tag.WEPDESIGN, Tag.JAVASCRIPT],
+      tags: [Tag.WEPDESIGN, Tag.JAVASCRIPT,Tag.JQUERY],
     },
     {
       id: 9,
@@ -127,7 +127,7 @@ export class ProjectsService {
         '../../../assets/upwork1.webp',
         '../../../assets/upwork2.webp',
       ],
-      tags: [Tag.WEPDESIGN, Tag.JAVASCRIPT],
+      tags: [Tag.WEPDESIGN, Tag.JAVASCRIPT,Tag.JQUERY],
     },
     {
       id: 11,
@@ -154,7 +154,7 @@ export class ProjectsService {
         '../../../assets/prixima2.webp',
         '../../../assets/prixima3.webp',
       ],
-      tags: [Tag.WEPDESIGN, Tag.JAVASCRIPT],
+      tags: [Tag.WEPDESIGN, Tag.JAVASCRIPT,Tag.JQUERY],
     },
     {
       id: 13,
@@ -167,7 +167,7 @@ export class ProjectsService {
         '../../../assets/ethan2.webp',
         '../../../assets/ethan3.webp',
       ],
-      tags: [Tag.WEPDESIGN, Tag.JAVASCRIPT],
+      tags: [Tag.WEPDESIGN, Tag.JQUERY],
     },
     {
       id: 14,
@@ -181,7 +181,7 @@ export class ProjectsService {
         '../../../assets/elixire3.webp',
         '../../../assets/elixire4.webp',
       ],
-      tags: [Tag.WEPDESIGN, Tag.JAVASCRIPT],
+      tags: [Tag.WEPDESIGN, Tag.JQUERY],
     },
     {
       id: 15,

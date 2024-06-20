@@ -1,5 +1,165 @@
 <div class="container text-center">
-  <button (click)="" class="btn btn-primary mb-5 shadow border">
+  <button
+    (click)="DownloadFile()"
+    class="btn btn-primary mt-0 mb-4 shadow border"
+  >
     Download PDF Resume
   </button>
+  <div class="pb-2">
+    <accordion [isAnimated]="true" class="shadow">
+      <accordion-group [(isOpen)]="isWorkExperienceOpened">
+        <button
+          accordion-heading
+          class="btn btn-block justify-content-between d-flex w-100"
+        >
+          <div style="visibility: hidden">></div>
+          <div class="btn-link">Work Experience</div>
+          <div style="width: 10.95px">
+            <div *ngIf="!isWorkExperienceOpened" style="color: white">></div>
+            <div *ngIf="isWorkExperienceOpened" style="color: white">v</div>
+          </div>
+        </button>
+        <div style="text-align: left">
+          <h2 class="mb-0">FrontEnd Developer</h2>
+          <h3 class="text-primary">DevZonia - Remotely</h3>
+          <h4 class="text-secundary">9/2023 - Present</h4>
+          <ul>
+            <li>
+              Converting designs into a responsive HTML ,CSS and Js templates
+            </li>
+            <li>Share by writing sections using AngularJs</li>
+            <li>
+              Implement client-side scripting using JavaScript to enhance
+              interactivity and user experience.
+            </li>
+            <li>
+              Ensure a consistent and enjoyable user experience across different
+              screen sizes.
+            </li>
+            <li>
+              Collaborate with (PHP) BackEnd developer to complete all work
+            </li>
+          </ul>
+        </div>
+        <hr />
+        <div style="text-align: left">
+          <h2 class="mb-0">FrontEnd Developer</h2>
+          <h3 class="text-primary mb-0">Freelancer</h3>
+          <h4 class="text-secundary">7/2022 - Present</h4>
+          <ul>
+            <li>Converting designs into a responsive templates</li>
+            <li>
+              Writing well-designed and efficient code using the best software
+              development tools
+            </li>
+          </ul>
+        </div>
+      </accordion-group>
+
+      <accordion-group [(isOpen)]="isEducationOpened">
+        <button
+          accordion-heading
+          class="btn btn-block justify-content-between d-flex w-100"
+        >
+          <div style="visibility: hidden">></div>
+          <div class="btn-link">Education</div>
+          <div style="width: 10.95px">
+            <div *ngIf="!isEducationOpened" style="color: white">></div>
+            <div *ngIf="isEducationOpened" style="color: white">v</div>
+          </div>
+        </button>
+
+        <div style="text-align: left">
+          <h2 class="mb-0">Bachelor's degree in computer technolog</h2>
+          <h3 class="text-primary mb-0">Damascus University/Applied College</h3>
+          <ul>
+            <li>Graduated from Damascus University in july 2024</li>
+          </ul>
+        </div>
+      </accordion-group>
+      <accordion-group [(isOpen)]="isCertificationsOpened">
+        <button
+          accordion-heading
+          class="btn btn-block justify-content-between d-flex w-100"
+        >
+          <div style="visibility: hidden">></div>
+          <div class="btn-link">Certifications</div>
+          <div style="width: 10.95px">
+            <div *ngIf="!isCertificationsOpened" style="color: white">></div>
+            <div *ngIf="isCertificationsOpened" style="color: white">v</div>
+          </div>
+        </button>
+        <div style="text-align: left">
+          <h3>Web Development</h3>
+          <ul>
+            <li>obtained August 2020</li>
+            <li>#98923402389</li>
+          </ul>
+        </div>
+      </accordion-group>
+      <accordion-group [(isOpen)]="isSkillsOpened">
+        <button
+          accordion-heading
+          class="btn btn-block justify-content-between d-flex w-100"
+        >
+          <div style="visibility: hidden">></div>
+          <div class="btn-link">Skills</div>
+          <div style="width: 10.95px">
+            <div *ngIf="!isSkillsOpened" style="color: white">></div>
+            <div *ngIf="isSkillsOpened" style="color: white">v</div>
+          </div>
+        </button>
+        <div class="row Skills mb-2 gy-4 justify-content-center" >
+          <div class="col-md-4">
+            <div class="box">
+              <p>Programming Languages:</p>
+              <ul>
+                <li><span>1</span> JavaScript</li>
+                <li><span>2</span> TypeScript</li>
+                <li><span>3</span> Basics of C#</li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="box">
+              <p>Frameworks:</p>
+              <ul>
+                <li><span>1</span> Angular</li>
+                <li><span>2</span> React</li>
+                <li><span>3</span> Basics of VueJs</li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="box">
+              <p>Libraries:</p>
+              <ul>
+                <li><span>1</span> RxJs</li>
+                <li><span>2</span> Jquery</li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="box">
+              <p>UI Libraries:</p>
+              <ul>
+                <li><span>1</span> Angular-Material</li>
+                <li><span>2</span> Bootstrap</li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="box">
+              <p>Other Skills:</p>
+              <ul>
+                <li><span>1</span> Source Control via Git</li>
+                <li><span>2</span> GitHub</li>
+                <li><span>3</span> RestFull APIs</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </accordion-group>
+    </accordion>
+  </div>
 </div>

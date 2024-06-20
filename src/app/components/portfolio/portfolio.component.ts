@@ -19,6 +19,7 @@ export class PortfolioComponent implements OnInit {
   bootstrap: boolean = false;
   javascript: boolean = false;
   webdesign: boolean = false;
+  jquery: boolean = false;
   filtering: boolean = false;
   returnedArray!: any[];
   currentPage: number = 1;
@@ -62,6 +63,9 @@ export class PortfolioComponent implements OnInit {
     if (this.webdesign) {
       filterTags.push(Tag.WEPDESIGN);
     }
+    if (this.jquery) {
+      filterTags.push(Tag.JQUERY);
+    }
     if (
       this.typescript ||
       this.angular ||
@@ -69,7 +73,8 @@ export class PortfolioComponent implements OnInit {
       this.react ||
       this.bootstrap ||
       this.javascript ||
-      this.webdesign
+      this.webdesign ||
+      this.jquery
     ) {
       this.filtering = true;
     } else {
@@ -86,6 +91,7 @@ export class PortfolioComponent implements OnInit {
     this.javascript = false;
     this.webdesign = false;
     this.typescript = false;
+    this.jquery=false;
     this.filtering = false;
     this.projects = this.projectService.getProjects();
     this.returnedArray = this.projects.slice(0, 6);

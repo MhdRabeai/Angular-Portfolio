@@ -5,6 +5,8 @@ import { AppRoutingModule } from './app-routing.module';
 import { ModalModule } from 'ngx-bootstrap/modal';
 import { CarouselModule } from 'ngx-bootstrap/carousel';
 import { CollapseModule } from 'ngx-bootstrap/collapse';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { AccordionModule } from 'ngx-bootstrap/accordion';
 
 import {
   BrowserModule,
@@ -21,9 +23,32 @@ import { ContactComponent } from './components/contact/contact.component';
 import { ProjectCardComponent } from './components/project-card/project-card.component';
 import { ProjectModalComponent } from './components/project-modal/project-modal.component';
 
+import { ProjectServicesComponent } from './components/project-services/project-services.component';
+
 @NgModule({
-  declarations: [AppComponent, HeaderComponent, NavComponent, HomeComponent, PortfolioComponent, ResumeComponent, ContactComponent, ProjectCardComponent, ProjectModalComponent],
-  imports: [CarouselModule.forRoot(),BrowserModule, AppRoutingModule,FormsModule,PaginationModule,ModalModule.forRoot(),CollapseModule.forRoot()],
+  declarations: [
+    AppComponent,
+    HeaderComponent,
+    NavComponent,
+    HomeComponent,
+    PortfolioComponent,
+    ResumeComponent,
+    ContactComponent,
+    ProjectCardComponent,
+    ProjectModalComponent,
+    ProjectServicesComponent,
+  ],
+  imports: [
+    BrowserAnimationsModule,
+    CarouselModule.forRoot(),
+    BrowserModule,
+    AppRoutingModule,
+    FormsModule,
+    PaginationModule,
+    ModalModule.forRoot(),
+    CollapseModule.forRoot(),
+    AccordionModule.forRoot(),
+  ],
   providers: [provideClientHydration()],
   bootstrap: [AppComponent],
 })

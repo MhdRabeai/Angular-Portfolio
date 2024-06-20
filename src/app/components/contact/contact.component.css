@@ -1,0 +1,4 @@
+.list-group a{
+  display: flex;
+  align-items: center;
+}

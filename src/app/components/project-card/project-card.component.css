@@ -16,12 +16,12 @@ background-color: #f8f8f8;
 .eleven h1 {
   font-size:20px;
   text-align:center;
-   line-height:1.5em; 
-   padding-bottom:45px; 
+   line-height:1.5em;
+   padding-bottom:45px;
    margin: 0;
-   font-family:"Playfair Display", serif; 
+   font-family:"Playfair Display", serif;
    text-transform:uppercase;
-   letter-spacing: 2px; 
+   letter-spacing: 2px;
    color:#111;
 }
 
@@ -114,3 +114,4 @@ background-color: #f8f8f8;
 .button:hover::before {
   width: 100%;
 }
+
