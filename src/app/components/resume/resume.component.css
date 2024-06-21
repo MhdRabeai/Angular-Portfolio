@@ -42,21 +42,30 @@ accordion-group::ng-deep button{
   width: 100%;
   background: #fff;
   box-shadow: 0 5px 25px rgba(0, 0, 0, 0.1);
-  transition: transform 0.5s;
+  transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  -o-transition: all 0.5s;
 }
 .box ul li:hover {
-  transform: scale(1.1);
+  transform: scale(1.05);
   z-index: 5;
-  background: #25bcff;
+  color: #fff;
+  background: #007bff;
   box-shadow: 0 5px 25px rgba(0, 0, 0, 0.2);
   opacity: 1;
+  -webkit-transform: scale(1.05);
+  -moz-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  -o-transform: scale(1.05);
 }
 .box ul li span {
   width: 20px;
   height: 20px;
   text-align: center;
   line-height: 20px;
-  background: #25bcff;
+  background: #007bff;
   color: #fff;
   display: inline-block;
   border-radius: 50%;
@@ -67,5 +76,5 @@ accordion-group::ng-deep button{
 }
 .box ul li:hover span {
   background: #fff;
-  color: #25bcff;
+  color: #007bff;
 }
