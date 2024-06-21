@@ -188,7 +188,8 @@ export class ProjectsService {
         '../../../assets/upwork2.webp',
       ],
       tags: [Tag.WEPDESIGN, Tag.JAVASCRIPT, Tag.JQUERY],
-      description: '',
+      description:
+        'It is a personal website that displays information about a person, his work, and his skills. The site is designed using HTML and CSS for basic structure and formatting, Bootstrap to enhance the design and make it responsive, JavaScript to add dynamism and interactivity, and jQuery libraries to add fun effects and animations.Technologies used:HTML: To structure pages and format content.CSS: To format and design elements and beautify the site.Bootstrap: To provide a flexible grid system and ready-made components to speed up the design process.JavaScript: To add interactions and dynamic behaviors to pages.jQuery: To facilitate selection and manipulation of elements and add advanced visual effects. Animation and effects:jQuery Animations: Use jQuery libraries to add effects such as animations and visual effects to make the site more attractive and interactive.Scrolling Effects: Use soft scrolling effects to enhance the user experience when navigating pages.Appear and disappear effects: Use effects to show and hide elements in a smooth and attractive way.Design and responsiveness:Bootstrap Grid System: Use Bootstrap grid system to achieve a responsive design that adapts to various screen sizes.Customize style: Use CSS to customize Bootstrap design and add personal touches.((Conclusion)):The "Upwork" project serves as a display of the user work and skills in an attractive and professional way, making it easier for visitors to understand the users capabilities and experiences in an easy and visual way.',
     },
     {
       id: 14,
@@ -204,7 +205,7 @@ export class ProjectsService {
       ],
       tags: [Tag.WEPDESIGN, Tag.JAVASCRIPT],
       description:
-        'It is a personal website that displays information about a person, his work, and his skills. The site is designed using HTML and CSS for basic structure and formatting, Bootstrap to enhance the design and make it responsive, JavaScript to add dynamism and interactivity, and jQuery libraries to add fun effects and animations.Technologies used:HTML: To structure pages and format content.CSS: To format and design elements and beautify the site.Bootstrap: To provide a flexible grid system and ready-made components to speed up the design process.JavaScript: To add interactions and dynamic behaviors to pages.jQuery: To facilitate selection and manipulation of elements and add advanced visual effects. Animation and effects:jQuery Animations: Use jQuery libraries to add effects such as animations and visual effects to make the site more attractive and interactive.Scrolling Effects: Use soft scrolling effects to enhance the user experience when navigating pages.Appear and disappear effects: Use effects to show and hide elements in a smooth and attractive way.Design and responsiveness:Bootstrap Grid System: Use Bootstrap grid system to achieve a responsive design that adapts to various screen sizes.Customize style: Use CSS to customize Bootstrap design and add personal touches.((Conclusion)):The "UpWork" project serves as a display of the user work and skills in an attractive and professional way, making it easier for visitors to understand the users capabilities and experiences in an easy and visual way.',
+        'The “Special-Design” project is a simple and attractive website that aims to attract visitors and motivate them to take a specific action such as registering, subscribing, or purchasing a product. The site relies on HTML to build the structure, CSS to format and design elements, and JavaScript to add interactions and an animated background.Technologies used:HTML: To build the basic structure of pages and define elements.CSS: To format and design elements and make the site elegant and attractive.JavaScript: To add dynamic interactions and animated background. Components of the project:Header Section: includes the site logo and navigation menu.Hero Section: A prominent area displaying a key message and call to action with an animated background to attract attention.Features Section: Displays the benefits of the product or service offered.Contact Us Section: Urges visitors to take the required step such as signing up or registering.Testimonials Section: Displays testimonials or reviews from previous customers.Footer Section: Includes website links and contact information.Interactions and dynamics:Hover Effects: Use JavaScript to add smooth hover effects to improve user experience.Registration forms: Use JavaScript to validate entries and provide a seamless user experience.Animated Background: Using JavaScript to create animated background effects that add an attractive visual touch to the website. Responsiveness and compatibility:CSS Media Queries: Use CSS code to ensure the site is compatible with different screen sizes and devices.JavaScript: To provide dynamic interactions and animated background without affecting the site performance on different devices.((Conclusion)):The "Special-Design" project is an effective tool to attract visitors and motivate them to interact with the offers and services provided in a direct and visual way, while using the animated background to enhance visual appeal and improve the user experience.',
     },
     {
       id: 15,
@@ -218,7 +219,8 @@ export class ProjectsService {
         '../../../assets/prixima3.webp',
       ],
       tags: [Tag.WEPDESIGN, Tag.JAVASCRIPT, Tag.JQUERY],
-      description: '',
+      description:
+        'The Prixima project is a simple and attractive website that aims to attract visitors and motivate them to take a specific action such as registering, subscribing, or purchasing a product. The site relies on HTML to build structure, CSS to format and design elements, JavaScript to add interactions, and the Owl Carousel library to create interactive and engaging slideshows.Technologies used:HTML: To build the basic structure of pages and define elements.CSS: To format and design elements and make the site elegant and attractive.JavaScript: To add dynamic interactions and improve user experience.Owl Carousel: To create responsive and easy-to-use slideshows. Interactions and dynamics:Hover Effects: Use JavaScript to add smooth hover effects to improve user experience.Registration forms: Use JavaScript to validate entries and provide a seamless user experience.Owl Carousel: Use the Owl Carousel library to create engaging and interactive slideshows.Responsiveness and compatibility:CSS Media Queries: Use CSS code to ensure the site is compatible with different screen sizes and devices.Owl Carousel: Makes the site more interactive and attractive, with a smooth user experience on different devices.Deployment and maintenance:((Conclusion)):The “Prixima” project is an effective tool to attract visitors and motivate them to interact with the offers and services provided in a direct and visual way, while using the Owl Carousel to enhance visual appeal and improve the user experience.',
     },
     {
       id: 16,
@@ -232,7 +234,8 @@ export class ProjectsService {
         '../../../assets/ethan3.webp',
       ],
       tags: [Tag.WEPDESIGN, Tag.JQUERY],
-      description: '',
+      description:
+        'It is a personal website that displays information about a person, his work, and his skills. The site is designed using HTML and CSS for basic structure and formatting, Bootstrap to enhance the design and make it responsive, JavaScript to add dynamism and interactivity, and jQuery libraries to add fun effects and animations.Technologies used:HTML: To structure pages and format content.CSS: To format and design elements and beautify the site.Bootstrap: To provide a flexible grid system and ready-made components to speed up the design process.JavaScript: To add interactions and dynamic behaviors to pages.jQuery: To facilitate selection and manipulation of elements and add advanced visual effects. Animation and effects:jQuery Animations: Use jQuery libraries to add effects such as animations and visual effects to make the site more attractive and interactive.Scrolling Effects: Use soft scrolling effects to enhance the user experience when navigating pages.Appear and disappear effects: Use effects to show and hide elements in a smooth and attractive way.Design and responsiveness:Bootstrap Grid System: Use Bootstrap grid system to achieve a responsive design that adapts to various screen sizes.Customize style: Use CSS to customize Bootstrap design and add personal touches.((Conclusion)):The "Ethan-Hunt" project serves as a display of the user work and skills in an attractive and professional way, making it easier for visitors to understand the users capabilities and experiences in an easy and visual way.',
     },
     {
       id: 17,
@@ -247,7 +250,8 @@ export class ProjectsService {
         '../../../assets/elixire4.webp',
       ],
       tags: [Tag.WEPDESIGN, Tag.JQUERY],
-      description: '',
+      description:
+        'It is a personal website that displays information about a person, his work, and his skills. The site is designed using HTML and CSS for basic structure and formatting, Bootstrap to enhance the design and make it responsive, JavaScript to add dynamism and interactivity, and jQuery libraries to add fun effects and animations.Technologies used:HTML: To structure pages and format content.CSS: To format and design elements and beautify the site.Bootstrap: To provide a flexible grid system and ready-made components to speed up the design process.JavaScript: To add interactions and dynamic behaviors to pages.jQuery: To facilitate selection and manipulation of elements and add advanced visual effects. Animation and effects:jQuery Animations: Use jQuery libraries to add effects such as animations and visual effects to make the site more attractive and interactive.Scrolling Effects: Use soft scrolling effects to enhance the user experience when navigating pages.Appear and disappear effects: Use effects to show and hide elements in a smooth and attractive way.Design and responsiveness:Bootstrap Grid System: Use Bootstrap grid system to achieve a responsive design that adapts to various screen sizes.Customize style: Use CSS to customize Bootstrap design and add personal touches.((Conclusion)):The "Elixir" project serves as a display of the user work and skills in an attractive and professional way, making it easier for visitors to understand the users capabilities and experiences in an easy and visual way.',
     },
     {
       id: 18,
@@ -257,7 +261,8 @@ export class ProjectsService {
       projectLink: 'https://mhdrabeai.github.io/EGATOR-DashBord/',
       pictures: ['../../../assets/egator-dash.webp'],
       tags: [Tag.WEPDESIGN, Tag.JAVASCRIPT],
-      description: '',
+      description:
+        'The "Egetor-Dashboard" project is an interactive web interface designed to display data and information in an organized and easy-to-understand manner. It is typically used to manage and monitor user or system information. The project relies on HTML to build structure, CSS to format and design elements, and JavaScript to add dynamic interactions.Technologies used:HTML: To build the basic structure of pages and define elements such as tables, charts, and forms.CSS: To format and design elements and make the site elegant and attractive, while using techniques such as Flexbox and Grid to ensure responsive design.JavaScript: To add dynamic interactions such as updating data, interactive charts, and navigating between sections. Responsiveness and compatibility:Flexbox and Grid: Use CSS techniques like Flexbox and Grid to ensure the panel is responsive and compatible with different screen sizes and devices.Media Queries: Use CSS code to ensure custom design for small and large screens.((Conclusion)):Project Egetor-Dashboard is a powerful tool for managing and monitoring data and information in an organized and visual way, using HTML, CSS, and JavaScript to ensure interactivity and responsiveness across all devices.',
     },
     {
       id: 19,
@@ -270,7 +275,8 @@ export class ProjectsService {
         '../../../assets/egator2.webp',
       ],
       tags: [Tag.WEPDESIGN, Tag.JAVASCRIPT],
-      description: '',
+      description:
+        'The “EGATOR” project is a simple and attractive website that aims to attract visitors and motivate them to take a specific action such as registering, subscribing, or purchasing a product. The site relies on HTML to build the structure, CSS to format and design elements, and JavaScript to add interactions and an animated background.Technologies used:HTML: To build the basic structure of pages and define elements.CSS: To format and design elements and make the site elegant and attractive.JavaScript: To add dynamic interactions and animated background. Components of the project:Header Section: includes the site logo and navigation menu.Hero Section: A prominent area displaying a key message and call to action with an animated background to attract attention.Features Section: Displays the benefits of the product or service offered.Contact Us Section: Urges visitors to take the required step such as signing up or registering.Testimonials Section: Displays testimonials or reviews from previous customers.Footer Section: Includes website links and contact information.Interactions and dynamics:Hover Effects: Use JavaScript to add smooth hover effects to improve user experience.Registration forms: Use JavaScript to validate entries and provide a seamless user experience.Animated Background: Using JavaScript to create animated background effects that add an attractive visual touch to the website. Responsiveness and compatibility:CSS Media Queries: Use CSS code to ensure the site is compatible with different screen sizes and devices.JavaScript: To provide dynamic interactions and animated background without affecting the site performance on different devices.((Conclusion)):The "EGATOR" project is an effective tool to attract visitors and motivate them to interact with the offers and services provided in a direct and visual way, while using the animated background to enhance visual appeal and improve the user experience.',
     },
     {
       id: 20,
@@ -284,7 +290,19 @@ export class ProjectsService {
         '../../../assets/elzero-dash3.webp',
       ],
       tags: [Tag.WEPDESIGN, Tag.JAVASCRIPT],
-      description: '',
+      description:
+        'The "Elzero-Dashboard" project is an interactive web interface designed to display data and information in an organized and easy-to-understand manner. It is typically used to manage and monitor user or system information. The project relies on HTML to build structure, CSS to format and design elements, and JavaScript to add dynamic interactions.Technologies used:HTML: To build the basic structure of pages and define elements such as tables, charts, and forms.CSS: To format and design elements and make the site elegant and attractive, while using techniques such as Flexbox and Grid to ensure responsive design.JavaScript: To add dynamic interactions such as updating data, interactive charts, and navigating between sections. Responsiveness and compatibility:Flexbox and Grid: Use CSS techniques like Flexbox and Grid to ensure the panel is responsive and compatible with different screen sizes and devices.Media Queries: Use CSS code to ensure custom design for small and large screens.((Conclusion)):Project Elzero-Dashboard is a powerful tool for managing and monitoring data and information in an organized and visual way, using HTML, CSS, and JavaScript to ensure interactivity and responsiveness across all devices.',
+    },
+    {
+      id: 21,
+      name: 'NokoSocial',
+      desc: 'A responsive SocialMedia template created using only HTML,CSS,and JavaScript',
+      gitHubLink: 'https://github.com/MhdRabeai/NokoSocial',
+      projectLink: 'https://noko-social-three.vercel.app/',
+      pictures: ['../../../assets/noko1.webp', '../../../assets/noko2.webp'],
+      tags: [Tag.WEPDESIGN, Tag.JAVASCRIPT],
+      description:
+        'The “NokoSocialMedia” project is an interactive website that aims to provide a platform for users to socialize, share content, and interact with others. The project relies on HTML to build the basic structure, CSS to format and design elements, and JavaScript to add dynamic interactions and improve the user experience.Technologies used:HTML: To build the basic structure of pages and define elements such as posts, comments, and buttons.CSS: To format and style elements, ensuring a responsive and elegant user experience using Flexbox and Grid.JavaScript: To add dynamic interactions and improve user experience. Responsiveness and compatibility:Flexbox and Grid: Use CSS techniques like Flexbox and Grid to ensure the page is responsive and compatible with different screen sizes and devices.Media Queries: Use CSS code to ensure custom design for small and large screens.((Conclusion)):The “NokoSocialMedia” project is an interactive social media platform, designed using HTML, CSS, and JavaScript to ensure interactivity and responsiveness across all devices, while providing a smooth and engaging user experience.',
     },
   ];
   constructor() {}
