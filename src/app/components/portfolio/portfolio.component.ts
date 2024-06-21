@@ -4,6 +4,7 @@ import { Project } from '../../_models/project';
 import { ProjectsService } from '../../_services/projects.service';
 import { PageChangedEvent } from 'ngx-bootstrap/pagination';
 import { Tag } from '../../_models/tag';
+import { ActivatedRoute, Router } from '@angular/router';
 @Component({
   selector: 'app-portfolio',
   templateUrl: './portfolio.component.html',
@@ -23,10 +24,12 @@ export class PortfolioComponent implements OnInit {
   filtering: boolean = false;
   returnedArray!: any[];
   currentPage: number = 1;
-  smallnumPages = 0;
+
   constructor(
     private titleService: Title,
-    private projectService: ProjectsService
+    private projectService: ProjectsService,
+    private activatedRoute: ActivatedRoute,
+    private router: Router
   ) {
     this.titleService.setTitle('Mhd - Portfolio');
   }
@@ -34,12 +37,19 @@ export class PortfolioComponent implements OnInit {
     const startItem = (event.page - 1) * event.itemsPerPage;
     const endItem = event.page * event.itemsPerPage;
     this.returnedArray = this.projects.slice(startItem, endItem);
+    this.router.navigate([], {
+      queryParams: { page: event.page },
+    });
   }
 
   ngOnInit(): void {
     this.projects = this.projectService.getProjects();
     this.returnedArray = this.projects.slice(0, 9);
+    this.router.navigate([], {
+      queryParams: { page: this.currentPage },
+    });
   }
+
   filter() {
     let filterTags: Tag[] = [];
     if (this.typescript) {
@@ -91,7 +101,7 @@ export class PortfolioComponent implements OnInit {
     this.javascript = false;
     this.webdesign = false;
     this.typescript = false;
-    this.jquery=false;
+    this.jquery = false;
     this.filtering = false;
     this.projects = this.projectService.getProjects();
     this.returnedArray = this.projects.slice(0, 6);

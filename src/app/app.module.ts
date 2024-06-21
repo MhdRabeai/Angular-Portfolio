@@ -7,6 +7,7 @@ import { CarouselModule } from 'ngx-bootstrap/carousel';
 import { CollapseModule } from 'ngx-bootstrap/collapse';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { AccordionModule } from 'ngx-bootstrap/accordion';
+import { NgxTypedJsModule } from 'ngx-typed-js';
 
 import {
   BrowserModule,
@@ -48,6 +49,7 @@ import { ProjectServicesComponent } from './components/project-services/project-
     ModalModule.forRoot(),
     CollapseModule.forRoot(),
     AccordionModule.forRoot(),
+    NgxTypedJsModule,
   ],
   providers: [provideClientHydration()],
   bootstrap: [AppComponent],

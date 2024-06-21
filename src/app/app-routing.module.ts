@@ -9,6 +9,7 @@ import { ProjectServicesComponent } from './components/project-services/project-
 
 const routes: Routes = [
   { path: '', component: HomeComponent, data: { animation: 'home' } },
+
   {
     path: 'portfolio',
     component: PortfolioComponent,
