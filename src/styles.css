@@ -8,10 +8,10 @@
   background-color: white;
 }
 ::-webkit-scrollbar-thumb {
-  background-color: #0075ff;
+  background-color: #5c61f4d8;
 }
 ::-webkit-scrollbar-thumb:hover {
-  background-color: #0d69d5;
+  background-color: #5c61f4a9;
 }
 
 .container{
