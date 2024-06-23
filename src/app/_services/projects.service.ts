@@ -10,7 +10,7 @@ export class ProjectsService {
     {
       id: 0,
       name: 'Google-Gemini',
-      desc: `FrontEnd web application developed using React and GoogleAi <br> you should`,
+      desc: `FrontEnd web application developed using React and GoogleAi ((You must run an American proxy for the application to work properly))`,
       gitHubLink: 'https://github.com/MhdRabeai/Google-Gemini',
       projectLink: 'https://google-gemini-lemon-nu.vercel.app/',
       pictures: [
@@ -21,7 +21,8 @@ export class ProjectsService {
         '../../../assets/google5.webp',
       ],
       tags: [Tag.REACT, Tag.JAVASCRIPT],
-      description: '',
+      description:
+        'The “Google-Gemini” project is an innovative multi-party web application from the React library for creating interactive user interfaces and Google AI services that delivers an advanced intelligent user experience. The project is aimed at users of data analysis and new artificial intelligence techniques for text processing, predictions, and data analysis. Technologies used:React: To build user interfaces in a componential and interactive manner.Google AI (e.g. TensorFlow.js, Google Cloud AI): To apply AI techniques to data analysis and natural language processing. Interactions and dynamics:Data Analysis: Using Google AI to analyze data entered by users and provide accurate results and predictions based on machine learning models.Natural language processing: Using Google AI services to understand and analyze text input from users.Reactive interface: Using React to provide a dynamic and easy-to-use user interface. Responsiveness and compatibility:Media Queries: Use additional CSS to ensure improved user experience on small and large screens. ((Conclusion)): The “Google-Gemini” project is an innovative web application that combines React and Google AI to deliver a premium and intelligent user experience. The app allows users to leverage advanced AI techniques for data analysis and word processing, making it a powerful and useful tool for a variety of uses.',
     },
     {
       id: 1,
