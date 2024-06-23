@@ -4,7 +4,7 @@ import { Project } from '../../_models/project';
 import { ProjectsService } from '../../_services/projects.service';
 import { PageChangedEvent } from 'ngx-bootstrap/pagination';
 import { Tag } from '../../_models/tag';
-import { ActivatedRoute, Router } from '@angular/router';
+import { Router } from '@angular/router';
 @Component({
   selector: 'app-portfolio',
   templateUrl: './portfolio.component.html',
@@ -28,7 +28,6 @@ export class PortfolioComponent implements OnInit {
   constructor(
     private titleService: Title,
     private projectService: ProjectsService,
-    private activatedRoute: ActivatedRoute,
     private router: Router
   ) {
     this.titleService.setTitle('Mhd - Portfolio');

@@ -12,16 +12,19 @@ const routes: Routes = [
 
   {
     path: 'portfolio',
-    component: PortfolioComponent,
-    data: { animation: 'portfolio' },
 
-    children: [
-      {
-        path: 'project-card',
-        component: ProjectCardComponent,
-        data: { animation: 'project-card' },
-      },
-    ],
+    loadChildren: () =>
+      import('./components/portfolio/portfolio.module').then(
+        (m) => m.PortfolioModule
+      ),
+
+    // children: [
+    //   {
+    //     path: 'project-card',
+    //     component: ProjectCardComponent,
+    //     data: { animation: 'project-card' },
+    //   },
+    // ],
   },
   { path: 'resume', component: ResumeComponent, data: { animation: 'resume' } },
   {
