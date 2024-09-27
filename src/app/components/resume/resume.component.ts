@@ -7,10 +7,10 @@ import { Title } from '@angular/platform-browser';
   styleUrl: './resume.component.css',
 })
 export class ResumeComponent {
-  isWorkExperienceOpened:boolean=false;
-  isEducationOpened:boolean=false;
-  isCertificationsOpened:boolean=false;
-  isSkillsOpened:boolean=false;
+  isWorkExperienceOpened: boolean = false;
+  isEducationOpened: boolean = false;
+  isCertificationsOpened: boolean = false;
+  isSkillsOpened: boolean = false;
   constructor(private titleService: Title, private renderer: Renderer2) {
     this.titleService.setTitle('Mhd - Resume');
   }
@@ -18,8 +18,8 @@ export class ResumeComponent {
   DownloadFile() {
     const link = this.renderer.createElement('a');
     link.setAttribute('target', '_blank');
-    link.setAttribute('href', '../../assets/CV-M.pdf');
-    link.setAttribute('download', 'CV-M.pdf');
+    link.setAttribute('href', '../../assets/Mhd-Rabee-Cv.pdf');
+    link.setAttribute('download', 'Mhd-Rabee-Cv.pdf');
     link.click();
     link.remove();
   }
